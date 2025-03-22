@@ -1,1 +1,69 @@
 /* Ini CSS External */
+
+body{
+    font-family: consolas;
+}
+
+.main-header>h1 {
+    margin: 0px;
+    background-color: cornflowerblue;
+    padding: 24px;
+    text-align: center;
+}
+
+main{
+    background-color: azure;
+    padding: 16px;
+    text-align: center;
+}
+
+.nav-fitur{
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-fitur>a{
+    color: black;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    width: 50%;
+    align-self: center;
+}
+
+.nav-fitur-non-active{
+    background-color: lightsteelblue;
+    color: white; 
+}
+.nav-fitur-active{
+    background-color: palegoldenrod;
+    color: black;
+}
+
+.section{
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.section-header{
+    background-color: cornflowerblue;
+    padding: 16px;
+}
+
+.section-image{
+    background-image: url(../assets/Persegi.png);
+    background-color: black;
+    width: 100px;
+    height: 100px;
+    justify-self: center;
+    background-size: cover;
+    background-position: center;
+}
+
+.calculate-content{
+    border: 1px solid;
+    height: 200px;
+}
+
+.footer{
+    text-align: center;
+}
