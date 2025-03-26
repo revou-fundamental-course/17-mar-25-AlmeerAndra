@@ -13,7 +13,7 @@
 <body>
     <!-- Header -->
     <header class="main-header">
-        <h1>Katik (kalkulator Matematik)</h1>
+        <h1>Katik (Kalkulator Matematik)</h1>
     </header>
     
     <!-- Main content -->
@@ -31,7 +31,13 @@
             <a href="" class="nav-fitur-active">Persegi</a>
             <a href="" class="nav-fitur-non-active">Persegi Panjang</a>
         </div>
-
+        <br><br>
+        <!-- Konten Persegi -->
+        <section>
+            <header class="section-title-persegi">
+                <h1>Persegi</h1>
+            </header>
+         </section>
         <!-- Section Luas -->
          <section>
             <header class="section-header">
@@ -39,10 +45,15 @@
             </header>
 
             <!-- Gambar Luas -->
-            <div class="section-image"></div>
+            <div class="section-image-persegi"></div>
 
             <!-- Konten Perhitungan -->
-             <div class="calculate-content"></div>
+             <div class="calculate-content">
+                <input type="number" class="input-sisi-luas" placeholder="Masukkan sisi">
+                <button class="hitung-luas">Hitung</button>
+                <button class="reset-luas">Reset</button>
+                <div class="hasil-luas"></div> 
+             </div>
          </section>
 
          <!-- Section Keliling -->
@@ -52,17 +63,67 @@
             </header>
 
             <!-- Gambar Keliling -->
-            <div class="section-image"></div>
+            <div class="section-image-persegi"></div>
 
             <!-- Konten Perhitungan -->
-            <div class="calculate-content"></div>
+            <div class="calculate-content">
+                <input type="number" class="input-sisi-keliling" placeholder="Masukkan sisi">
+                <button class="hitung-keliling">Hitung</button>
+                <button class="reset-keliling">Reset</button>
+                <div class="hasil-keliling"></div>
+            </div>
+        </section>
+        <br><br>
+        <!-- Konten Persegi Panjang-->
+        <section>
+            <header class="section-title-pp">
+                <h1>Persegi Panjang</h1>
+            </header>
+         </section>
+        <!-- Section Luas -->
+         <section>
+            <header class="section-header">
+                <h1>Luas Persegi Panjang</h1>
+            </header>
+
+            <!-- Gambar Luas -->
+            <div class="section-image-pp"></div>
+
+            <!-- Konten Perhitungan -->
+             <div class="calculate-content">
+                <input type="number" class="input-panjang-luas-pp" placeholder="Masukkan panjang">
+                <input type="number" class="input-lebar-luas-pp" placeholder="Masukkan lebar">
+                <button class="hitung-luas-pp">Hitung</button>
+                <button class="reset-luas-pp">Reset</button>
+                <div class="hasil-luas-pp"></div> 
+             </div>
          </section>
 
+         <!-- Section Keliling -->
+         <section>
+            <header class="section-header">
+                <h1>Keliling Persegi Panjang</h1>
+            </header>
+
+            <!-- Gambar Keliling -->
+            <div class="section-image-pp"></div>
+
+            <!-- Konten Perhitungan -->
+            <div class="calculate-content">
+                <input type="number" class="input-panjang-keliling-pp" placeholder="Masukkan sisi">
+                <input type="number" class="input-lebar-keliling-pp" placeholder="Masukkan sisi">
+                <button class="hitung-keliling-pp">Hitung</button>
+                <button class="reset-keliling-pp">Reset</button>
+                <div class="hasil-keliling-pp"></div>
+            </div>
+         </section>
+        
     </main>
 
     <!-- Footer -->
     <footer>
         <p>Made by Almeer@2025</p>
     </footer>
+    <script src="js/script.js"></script>
 </body>
 </html>

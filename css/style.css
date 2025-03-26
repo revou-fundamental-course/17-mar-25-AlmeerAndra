@@ -2,6 +2,7 @@
 
 body{
     font-family: consolas;
+    border-radius: 10px;
 }
 
 .main-header>h1 {
@@ -9,17 +10,20 @@ body{
     background-color: cornflowerblue;
     padding: 24px;
     text-align: center;
+    border-radius: 10px;
 }
 
 main{
     background-color: azure;
     padding: 16px;
     text-align: center;
+    border-radius: 10px;
 }
 
 .nav-fitur{
     display: flex;
     flex-direction: column;
+    border-radius: 10px;
 }
 
 .nav-fitur>a{
@@ -28,28 +32,33 @@ main{
     padding-bottom: 16px;
     width: 50%;
     align-self: center;
+    border-radius: 10px;
 }
 
 .nav-fitur-non-active{
     background-color: lightsteelblue;
     color: white; 
+    border-radius: 10px;
 }
 .nav-fitur-active{
     background-color: palegoldenrod;
     color: black;
+    border-radius: 10px;
 }
 
 .section{
     margin-top: 16px;
     margin-bottom: 16px;
+    border-radius: 10px;
 }
 
 .section-header{
     background-color: cornflowerblue;
     padding: 16px;
+    border-radius: 10px;
 }
 
-.section-image{
+.section-image-persegi{
     background-image: url(../assets/Persegi.png);
     background-color: black;
     width: 100px;
@@ -62,8 +71,29 @@ main{
 .calculate-content{
     border: 1px solid;
     height: 200px;
+    border-radius: 10px;
 }
 
 .footer{
     text-align: center;
+}
+.section-image-pp{
+    background-image: url(../assets/P\ Panjang.png);
+    background-color: black;
+    width: 200px;
+    height: 100px;
+    justify-self: center;
+    background-size: cover;
+    background-position: center;
+}
+.section-title-persegi{
+    font-size: larger;
+    background-color: palegoldenrod;
+    padding: 0px;
+    border-radius: 10px;
+}
+.section-title-pp{
+    font-size: larger;
+    background-color: lightsteelblue;
+    border-radius: 10px;
 }
